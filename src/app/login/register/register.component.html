@@ -1,0 +1,36 @@
+<form action="">
+  <!-- REGISTER UP MAIN START -->
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>SIGN UP:</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-form-field class="full-width">
+        <input matInput type="email" placeholder="enter your email">
+        <mat-hint>enter validly email account</mat-hint>
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <input matInput type="text" placeholder="enter your name">
+        <mat-hint>enter your real name</mat-hint>
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <input matInput type="password" placeholder="enter your password">
+        <mat-hint>Number, Letter and Underscore, between 6 and 32</mat-hint>
+      </mat-form-field>
+      <mat-form-field class="full-width">
+        <input matInput type="password" placeholder="password again">
+        <mat-hint>enter password again</mat-hint>
+      </mat-form-field>
+      <mat-grid-list cols="8">
+        <mat-grid-tile *ngFor="let item of items">
+          <mat-icon class="avatar" [svgIcon]="item"></mat-icon>
+        </mat-grid-tile>
+      </mat-grid-list>
+      <div class="btn-wrapper">
+        <button mat-raised-button type="button" color="primary">sign in</button>
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <!-- REGISTER UP MAIN END -->
+</form>
+

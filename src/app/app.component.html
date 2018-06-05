@@ -1,4 +1,4 @@
-<mat-sidenav-container>
+<mat-sidenav-container [class.myapp-dark-theme]="toggleTheme">
   <!-- LEFT SIDENAV START -->
   <mat-sidenav #sidenav mode="over">
     <app-sidebar></app-sidebar>
@@ -7,7 +7,7 @@
   <div class="stie">
     <!-- HEADER START -->
     <header>
-      <app-header (togger)="sidenav.toggle();"></app-header>
+      <app-header (togger)="sidenav.toggle();" (toggerDarkTheme)="switchTheme($event);"></app-header>
     </header>
     <!-- HEADER START -->
     <!-- MAIN START -->
