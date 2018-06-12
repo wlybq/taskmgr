@@ -1,0 +1,15 @@
+<form>
+  <h2 mat-dialog-title>New Project</h2>
+  <mat-dialog-content>
+    <mat-form-field class="full-width">
+      <input type="text" matInput placeholder="project name">
+    </mat-form-field>
+    <mat-form-field class="full-width">
+      <textarea type="text" matInput placeholder="enter decriptions"></textarea>
+    </mat-form-field>
+  </mat-dialog-content>
+  <mat-dialog-actions>
+    <button type="button" mat-button mat-dialog-close>cancel</button>
+    <button type="button" mat-raised-button color="primary" (click)="createNewProject();">finish</button>
+  </mat-dialog-actions>
+</form>

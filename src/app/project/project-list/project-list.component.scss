@@ -1,0 +1,17 @@
+:host {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .project-card {
+        flex: 0 0 360px;
+        height: 360px;
+        margin: 14px 10px;
+    }
+
+    .add-project-btn {
+        position: fixed;
+        right: 2.3rem;
+        bottom: 2.3rem;
+    }
+}

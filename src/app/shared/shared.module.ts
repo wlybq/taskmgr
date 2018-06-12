@@ -8,7 +8,6 @@ import { CommonModule } from '@angular/common';
 import {
   MatToolbarModule,
   MatIconModule,
-  MatButtonModule,
   MatCardModule,
   MatListModule,
   MatGridListModule,
@@ -16,6 +15,10 @@ import {
 
 import { MatInputModule } from '@angular/material/input';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   imports: [
@@ -28,6 +31,9 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     MatListModule,
     MatSlideToggleModule,
     MatGridListModule,
+    MatDialogModule,
+    MatAutocompleteModule,
+    MatMenuModule,
   ],
   exports: [
     CommonModule,
@@ -39,6 +45,9 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     MatListModule,
     MatSlideToggleModule,
     MatGridListModule,
+    MatDialogModule,
+    MatAutocompleteModule,
+    MatMenuModule,
   ],
   declarations: []
 })

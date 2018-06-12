@@ -6,6 +6,11 @@ html, body, app-root, mat-sidenav-container, .stie {
     width: 100%;
     height: 100%;
     margin: 0;
+
+    .full-width {
+        display: block !important;
+        width: 100% !important;
+    }
 }
 
 .stie {
