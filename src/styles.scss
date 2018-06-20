@@ -11,6 +11,12 @@ html, body, app-root, mat-sidenav-container, .stie {
         display: block !important;
         width: 100% !important;
     }
+
+    .add-icon-btn {
+        position: fixed;
+        right: 2.3rem;
+        bottom: 2.3rem;
+    }
 }
 
 .stie {
@@ -23,6 +29,7 @@ main {
 }
 
 .fill-remaining-space {
+    
     flex: 1 0 auto;
 }
 

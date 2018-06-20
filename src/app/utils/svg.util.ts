@@ -27,6 +27,7 @@ export const loadSvgManager = (ir: MatIconRegistry, ds: DomSanitizer) => {
     // avatar svg load
     const avatarDir = `${iconsDir}/avatar`;
     ir.addSvgIconSetInNamespace('avatars', ds.bypassSecurityTrustResourceUrl(`${avatarDir}/avatars.svg`));
+    ir.addSvgIcon('unassigned', ds.bypassSecurityTrustResourceUrl(`${avatarDir}/unassigned.svg`));
 
     // other svg load
     const otherDir = `${iconsDir}/other`;

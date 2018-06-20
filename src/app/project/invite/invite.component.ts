@@ -19,7 +19,7 @@ export class InviteComponent implements OnInit {
       id: 3,
       name: 'wangwu',
     },
-  ]
+  ];
   constructor() { }
 
   ngOnInit() {
